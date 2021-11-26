@@ -221,3 +221,47 @@ footer div a:hover {
 .container-add {
     margin-top: 6%;
 }
+
+
+@media (max-width: 500px) {
+    
+    .container-home h1 {
+        display: block;
+        font-size: 3rem;
+    }
+
+    .cafe_box {
+        display: block;
+    }
+
+    .cafe_content h1 {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .cafe_content ul {
+        /* display: flex;
+        flex-direction: column; */
+        grid-template-columns:repeat(1, 190px);
+
+    }
+
+    .cafe_image  {
+        display: block;
+    }
+
+    .image {
+        width: 10rem;
+        height: 10rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .edit {    
+        margin-top: 20px;
+    } 
+
+    .delete{
+        margin-top: 20px;
+    }
+}
