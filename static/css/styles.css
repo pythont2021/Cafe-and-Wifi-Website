@@ -232,6 +232,9 @@ footer div a:hover {
 
     .cafe_box {
         display: block;
+        left: 50%;
+        transform: translate(-50%, 10%);
+        width: 60%;
     }
 
     .cafe_content h1 {
