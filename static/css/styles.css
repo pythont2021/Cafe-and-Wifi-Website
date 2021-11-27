@@ -234,7 +234,8 @@ footer div a:hover {
         display: block;
         left: 50%;
         transform: translate(-50%, 10%);
-        width: 60%;
+        width: 70%;
+        padding: 15px;
     }
 
     .cafe_content h1 {
@@ -254,9 +255,8 @@ footer div a:hover {
     }
 
     .image {
-        width: 10rem;
+        width: 12rem;
         height: 10rem;
-        text-align: center;
         margin-top: 20px;
     }
     
